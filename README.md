@@ -1,1 +1,2 @@
-# React + Tailwind + Vite Starter pack
+# Random Gifs Generator
+## Using React, tailwind and axios
