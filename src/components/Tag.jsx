@@ -3,7 +3,7 @@ import Loader from "./Loader";
 import useGif from "../hooks/useGif";
 
 const Tag = () => {
-	const [tag, setTag] = useState("working");
+	const [tag, setTag] = useState("cute dogs");
 	const { gif, loading, fetchData } = useGif(tag);
 
 	return (
@@ -27,7 +27,7 @@ const Tag = () => {
 				/>
 				<button
 					onClick={() => fetchData()}
-					className="mt-[0.7rem] md:mt-4 uppercase text-sm md:text-base font-semibold py-1 md:py-2 rounded-md w-full md:w-[85%] bg-white bg-opacity-60 hover:bg-opacity-100 transition-color duration-150"
+					className="mt-[0.7rem] md:mt-4 uppercase text-sm md:text-base font-semibold py-1 md:py-2 rounded-md w-full  bg-white bg-opacity-60 hover:bg-opacity-100 transition-color duration-150"
 				>
 					Generate
 				</button>
